@@ -1,4 +1,16 @@
 # Starter pipeline
+- task: VaultReadKV@3
+  inputs:
+    strUrl: 'https://hvp.akeyless.io'
+    ignoreCertificateChecks: true
+    useProxy: 'none'
+    strAuthType: 'clientToken'
+    strToken: 'p-b8gyqx00n9kv..g9DVeZc/mjMdgtSwmR/nW4XEnuTFI33Tl4P28SrdoyM='
+    strKVEnginePath: 'secret/data'
+    kvVersion: 'v1'
+    strSecretPath: '/azure/azuredevops'
+    strPrefixType: 'custom'
+    replaceCR: false
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
