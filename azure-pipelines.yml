@@ -11,7 +11,7 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
-- task: VaultReadKV@2
+- task: VaultReadKV@3
   inputs:
     strUrl: 'https://hvp.akeyless.io'
     ignoreCertificateChecks: true
