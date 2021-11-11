@@ -5,7 +5,7 @@
     ignoreCertificateChecks: true
     useProxy: 'none'
     strAuthType: 'clientToken'
-    strToken: 'p-b8gyqx00n9kv..g9DVeZc/mjMdgtSwmR/nW4XEnuTFI33Tl4P28SrdoyM='
+    strToken: $VAULT_TOKEN
     strKVEnginePath: 'secret/data'
     kvVersion: 'v1'
     strSecretPath: '/azure/azuredevops'
