@@ -1,4 +1,4 @@
-- task: VaultReadKV@3
+- task: VaultReadKV@2
  inputs:
    strUrl: 'https://hvp.akeyless.io'
    ignoreCertificateChecks: true
