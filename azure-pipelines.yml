@@ -9,6 +9,11 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
+resources:
+  webhooks:
+    - webhook: test-barak-from-akeyless
+      connection: akeyless
+
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
